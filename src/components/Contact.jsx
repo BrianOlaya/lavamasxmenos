@@ -25,7 +25,7 @@ function Contact() {
       <p>Medellín, Antioquia - Colombia</p>
       <p> © {new Date().getFullYear()} Todos los derechos reservados.</p>
       </div>
-      <div className="bg-cyan-900 flex justify-center items-center h-16">
+      <div className="flex justify-center items-center h-8" style={{backgroundColor:`#00e1ff`}}>
         <p className="font-light text-white text-xs">Desarrollado por: Brian Olaya Dev </p>     
         <img className="w-5 ml-1" src={brian} alt="" />  
       </div>

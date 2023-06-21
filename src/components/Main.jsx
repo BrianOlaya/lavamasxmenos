@@ -1,6 +1,4 @@
-//import video from "../media/lavadora.mp4";
 import lavadora_mabe from "../media/lavadora_mabe.svg";
-//import lavadora_challenger from "../media/lavadora_challenger.webp";
 import background from '../media/bluebg.jpg'
 import lavadora_challenger_2 from "../media/lavadora_chalenger.svg";
 import whatsApp_icon from '../media/whatsApp_icon.png'
@@ -46,14 +44,6 @@ function Main() {
     prevArrow: <SamplePrevArrow />
   };
  
-  // bg-gradient-to-r 
-  // from-cyan-200 from-10% 
-  // via-teal-100 via-50% 
-  // to-slate-50 to-100% 
-  // md:bg-gradient-to-r  
-  // from-cyan-500 
-  // to-white 
-  // md:bg-gradient-to-r from-slate-200 to-white
   return (
     <>
     <div className=" flex md:flex-row flex-col  w-full bg-cover" style={{backgroundImage : `url(${background})` }} id=' main'>
@@ -81,7 +71,7 @@ function Main() {
     </a>
 
 
-    <a className="md:hidden fixed bottom-8 right-2 w-14 ml-2"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"><img className="md:hidden fixed bottom-8 right-2 w-14 ml-2" src={whatsApp_icon} alt="" /></a>
+    <a className="md:hidden fixed bottom-8 right-2 w-14 ml-2"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"><img className="md:hidden fixed bottom-5 right-2 w-16 ml-2" src={whatsApp_icon} alt="" /></a>
   
     </>
   );

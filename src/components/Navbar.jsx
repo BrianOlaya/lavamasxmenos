@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../media/logo_lava_mas_opt.svg";
-//import logo2 from "../media/logo_lava_mas2.png";
+
 
 function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
