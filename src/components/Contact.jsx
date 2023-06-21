@@ -10,14 +10,14 @@ function Contact() {
       <div className="md:flex pt-8">
         <div className="md:w-1/2 mt-8">
           <h1 className=" text-3xl md:text-5xl font-light md:ml-60 ml-20 mb-4 md:mb-10">Contáctanos</h1>
-          <p className=" text-2xl md:text-4xl font-light md:ml-64 ml-24">324 469 3084</p>
+          <p className=" text-2xl md:text-4xl font-light md:ml-64 ml-24">311 516 7273</p>
           <p className=" text-2xl md:text-4xl font-light md:ml-64 ml-24">324 469 3084</p>
         </div>
         <div className="md:w-1/2 mt-8">
         <h1 className=" text-3xl md:text-5xl font-light md:ml-60 ml-24 mb-4 md:mb-10" >Síguenos</h1>
         <div className="flex justify-center">
-         <a href="https://instagram.com/lavamasxmenos?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"><img className="md:w-[100px] md:h-[100px] w-[50px] mr-4" src={instagram} alt=""/></a> 
-         <a href="https://m.facebook.com/profile.php?id=100064161816516&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><img className="md:w-[100px] md:h-[100px] w-[50px] md:mr-32 " src={facebook} alt=""/></a> 
+         <a href="https://instagram.com/lavamasxmenos/" target="_blank" rel="noopener noreferrer"><img className="md:w-[100px] md:h-[100px] w-[50px] mr-4" src={instagram} alt=""/></a> 
+         <a href="https://m.facebook.com/profile.php?id=100064161816516/" target="_blank" rel="noopener noreferrer"><img className="md:w-[100px] md:h-[100px] w-[50px] md:mr-32 " src={facebook} alt=""/></a> 
          </div>
         </div>
       </div>

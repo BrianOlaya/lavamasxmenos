@@ -76,12 +76,12 @@ function Main() {
 
 
     
-    <a className="hidden absolute md:flex  left-[490px] bottom-20 bg-green-600 rounded-full text-white px-8 py-4 text-3xl"  href={`https://wa.me/573023704235/?text=${msg}`} target="_blank" rel="noopener noreferrer"> Contactar
+    <a className="hidden absolute md:flex  left-[490px] bottom-20 bg-green-600 rounded-full text-white px-8 py-4 text-3xl"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"> Contactar
     <img className="w-10 ml-2" src={whatsApp_icon} alt="" />
     </a>
 
 
-    <a className="md:hidden fixed bottom-8 right-2 w-14 ml-2"  href={`https://wa.me/573023704235/?text=${msg}`} target="_blank" rel="noopener noreferrer"><img className="md:hidden fixed bottom-8 right-2 w-14 ml-2" src={whatsApp_icon} alt="" /></a>
+    <a className="md:hidden fixed bottom-8 right-2 w-14 ml-2"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"><img className="md:hidden fixed bottom-8 right-2 w-14 ml-2" src={whatsApp_icon} alt="" /></a>
   
     </>
   );
