@@ -1,81 +1,31 @@
-import lavadora_mabe from "../media/lavadora_mabe.svg";
-import background from '../media/bluebg.jpg'
-import lavadora_challenger_2 from "../media/lavadora_chalenger.svg";
-import whatsApp_icon from '../media/whatsApp_icon.png'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import background2 from "../media/lavadora-mabe-tapa-abierta.jpg";
+import logo_challenger_2 from "../media/logo-challenger3.webp";
+import logo_mabe_2 from "../media/logo_mabe.png";
 
 function Main() {
-
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "none", background: "transparent" }}
-        onClick={onClick}
-      />
-    );
-  }
-  
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "none", background: "transparent" }}
-        onClick={onClick}
-      />
-    );
-  }
-  
-  const msg = "Saludos, quisiera contratar un plan con ustedes por favor."
-
-  const settings = {
-    //dots: true,
-    fade: true,
-    infinite: true,
-    speed: 2500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay:true,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
-  };
- 
   return (
     <>
-    <div className=" flex md:flex-row flex-col  w-full bg-cover" style={{backgroundImage : `url(${background})` }} id=' main'>
-      <div className="md:w-1/2 text-center md:text-right md:pl-20 mt-20 md:mt-40 font-light ">
-          <h1 className="px-6 md:text-6xl text-xl mb-[-40px] text-blue-900">Alquiler de lavadoras automáticas y doble tina. Ofrecemos el mejor servicio de la ciudad al mejor precio. Contáctanos.</h1>
+      <div
+        className="w-full h-screen bg-cover md:bg-center"
+        style={{ backgroundImage: `url(${background2})` }}
+      >
+        <div className="blur-lg bg-white/60 w-3/4 md:w-full h-full"></div>
+        <h1 className="absolute z-0 top-32 w-1/2  text-5xl md:w-3/4  md:text-7xl md:top-40 md:left-56 md:text-center   ml-4 text-blue-800 font-light md:font-bold drop-shadow-lg shadow-black ">
+          Alquiler de lavadoras automáticas y doble tina
+        </h1>
+        <img
+          className="absolute left-4 bottom-4  w-36  md:left-[20%] md:bottom-40 md:w-80"
+          src={logo_mabe_2}
+          alt=""
+        />
+        <img
+          className="absolute left-44 bottom-5  w-40  md:left-[60%] md:bottom-40 md:w-[400px]"
+          src={logo_challenger_2}
+          alt=""
+        />
       </div>
-
-      <div className="md:w-2/5 w-11/12">
-
-      <Slider {...settings}>
-          <div>
-            <img className="md:w-3/4 w-60 ml-10 mt-8 md:mt-16 md:ml-36 pointer-events-none" src={lavadora_mabe} alt=""/>
-          </div>
-          <div>
-            <img className="md:ml-8 w-full ml-2 pointer-events-none" alt="" src={lavadora_challenger_2} />
-          </div>
-        </Slider>
-      </div>  
-    </div>
-
-
-    
-    <a className="hidden absolute md:flex  left-[490px] bottom-20 bg-green-600 rounded-full text-white px-8 py-4 text-3xl"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"> Contactar
-    <img className="w-10 ml-2" src={whatsApp_icon} alt="" />
-    </a>
-
-
-    <a className="md:hidden fixed bottom-8 right-2 w-14 ml-2"  href={`https://wa.me/573115167273/?text=${msg}`} target="_blank" rel="noopener noreferrer"><img className="md:hidden fixed bottom-5 right-2 w-16 ml-2" src={whatsApp_icon} alt="" /></a>
-  
     </>
   );
 }
 
 export default Main;
-
